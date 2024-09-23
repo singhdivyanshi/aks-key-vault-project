@@ -1,11 +1,13 @@
 Hello Everyone!
 Few days back I started my DevOps journey and gained various skills, here's my new project:
+
 AKS Key Vault Project
 Let me help you with an overview of this project
 -This project demonstrates how to use Azure Kubernetes Service (AKS) with Azure Key Vault to manage secrets. 
 -It includes a Kubernetes pod that retrieves secrets stored in Azure Key Vault using a managed identity.
 
 Features
+
 AKS Cluster: A managed Kubernetes service to run containerized applications.
 Azure Key Vault: A secure storage service for secrets and keys.
 Managed Identity: Allows the pod to access Azure resources without needing to manage credentials manually.
