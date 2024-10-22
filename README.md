@@ -32,12 +32,15 @@ Installation--
    git clone https://github.com/singhdivyanshi/aks-key-vault-project.git
    cd aks-key-vault-project
 
-2.Set Up AKS
+2.Set Up AKS cluster
 
 3.Deploy the Application--
 
   Run the following command to deploy the resources defined in aks-config.yaml:  
+  
   (kubectl apply -f aks-config.yaml)
+
+  
 
 Usage--
 
@@ -45,7 +48,8 @@ After deployment, you can monitor the status of your pod using:
 (kubectl get pods --namespace default)
 
 Notes
-Ensure that the Azure Key Vault is configured properly and that your pod has the correct permissions to access the secrets.
+Ensure that the Azure Key Vault is configured properly and that your pod has the aprropriate permissions to access the secrets.
+
 Modify the configurations in aks-config.yaml as needed for your specific use case.
 
 Any contributions to improve this project are welcomed :)
